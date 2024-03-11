@@ -1,0 +1,6 @@
+@import './base.css';
+@import './tailwind.css';
+
+section {
+  min-height: 100vh;
+}
