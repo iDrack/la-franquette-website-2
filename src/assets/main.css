@@ -1,6 +1,12 @@
 @import './base.css';
-@import './tailwind.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 section {
   min-height: 100vh;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }

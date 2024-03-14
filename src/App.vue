@@ -13,8 +13,7 @@
         <RouterView />
     </main>
 
-    <footer>
       <FooterComponent />
-    </footer>
+
 </template>
 

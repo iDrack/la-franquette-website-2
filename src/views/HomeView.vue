@@ -7,30 +7,37 @@ import ProductSection from './_partials/ProductSection.vue';
 </script>
 
 <template>
-
-    <section id="home" class="w-full pb-24">
+    <section id="home" class="grid">
         <HomeSection />
     </section>
+  
+    <hr class="divider hidden" >
 
-    <hr class="divider" >
-
-    <section id="product" class="w-full pb-24">
+    <section id="product" class="pt-20 pb-24">
         <ProductSection />
     </section>
 
-    <hr class="divider">
+    <hr class="divider hidden">
 
     <section id="about" class="w-full pb-24">
         <AboutSection />
     </section>
 
-    <hr class="divider">
+    <hr class="divider hidden">
 
-    <section id="contact" class="w-full pb-24">
+    <section id="contact" class="w-full pb-16">
         <ContactSection />
     </section>
 
 </template>
 
 <style scoped>
+
+#home {
+    min-height: 90vh !important;
+}
+
+#contact {
+    min-height: 75vh !important;
+}
 </style>
