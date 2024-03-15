@@ -4,14 +4,19 @@
         <div class="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
           <div class="mb-16 lg:mb-0 lg:max-w-lg">
             <div class="max-w-xl mb-6">
-              <h3>
+              <h3 class="color-primary lato-regular">
                 La bonne Franquette
               </h3>
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                La caisse facile<br class="hidden md:block" />
-                <span class="inline-block text-deep-purple-accent-400">pour des journées plus fluides</span>
+              <h2 class="max-w-lg mb-6 text-3xl sm:text-4xl sm:leading-none">
+                <span class="font-bold">
+                  La caisse facile
+                </span> 
+                <br class="hidden md:block" />
+                <span class="inline-block">
+                  pour des journées plus fluides
+                </span>
               </h2>
-              <p class="text-base text-gray-700 md:text-lg">
+              <p class="text-base md:text-lg">
                 Transformez votre tablette en une caisse intelligente avec notre application sur mesure.
                 Du food truck au stand de marché, notre application s'adapte à votre menu. 
               </p>
@@ -27,15 +32,15 @@
           </div>
         </div>
     </div>
-    <a
-    href="/"
-    aria-label="Scroll down"
-    class="flex items-center justify-center w-10 h-10 mx-auto text-gray-600 duration-300 transform border border-gray-400 rounded-full hover:text-deep-purple-accent-400 hover:border-deep-purple-accent-400 hover:shadow hover:scale-110"
-    >
-    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
-        <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z"></path>
-    </svg>
-    </a>
+    <div class="w-full flex items-center justify-center">
+      <a href="#product" class="smooth">
+        <ChevronDownIcon 
+          href=""
+            @click="scrollToProductionSection()" 
+            aria-label="Scroll down" 
+            class="size-10 color-primary border-2 border-gray-100 rounded-full p-2 hover:shadow" />    
+        </a>
+        </div>
 
   </div>
 
@@ -43,7 +48,13 @@
 </template>
 
 <style scoped>
+
 </style>
 <script setup>
+  import { ChevronDownIcon } from '@heroicons/vue/24/outline';
+
+  function scrollToProductionSection() {
+
+  }
 
 </script>

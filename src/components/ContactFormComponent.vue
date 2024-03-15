@@ -11,9 +11,10 @@
             class="w-full rounded-md px-4 bg-gray-100 text-sm pt-3 outline-amber-200"></textarea>
         <div class="flex justify-center">
             <button type='button'
-            class="text-white bg-amber-200 hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-3 w-1/3">Send</button>
+            class="bg-secondary text-white font-bold rounded-md text-sm px-4 py-3 w-1/3">Prendre contact</button>
         </div>
     </form>
 </template>
 
-<style></style>
+<style scoped>
+</style>

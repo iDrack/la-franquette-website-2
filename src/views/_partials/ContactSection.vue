@@ -1,28 +1,31 @@
 <script setup>
         import ContactFormComponent from '@/components/ContactFormComponent.vue';
+
+        const mail = import.meta.env.VITE_MAIL;
+        const mailto = "mailto:"+mail+"?subject=Prise de contact via web";
  </script>
 
 <template>
 <div class="grid sm:grid-cols-2 items-center gap-16 my-6 mx-auto max-w-4xl">
             <div>
-                <h2 class="text-3xl font-bold">Contactez-nous dès maintenant</h2>
-                <p class="text-sm text-gray-400 mt-3">
+                <h2 class="text-2xl font-semibold">Contactez-nous dès maintenant</h2>
+                <p class="text-sm text-justify mt-3">
                         Vous souhaitez en savoir plus sur notre application ? Nous sommes impatients de découvrir votre projet et serons ravis de répondre à toutes vos questions.
                 </p>
                 <div class="mt-12">
                     <ul class="mt-3">
                         <li class="flex items-center">
-                            <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                            <a class=" bg-gray-100 hover:shadow h-10 w-10 rounded-full flex items-center justify-center shrink-0" :href="mailto">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill=''
                                     viewBox="0 0 479.058 479.058">
                                     <path
                                         d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
                                         data-original="#000000" />
                                 </svg>
-                            </div>
-                            <a class="text-sm ml-3">
-                                <small class="block">Notre mail</small>
-                                <strong>contact@labonnefranquette.com</strong>
+                           </a>
+                            <a class="text-sm lato-light ml-3">
+                                <small class="block">Notre email</small>
+                                <strong>{{ mail }}</strong>
                             </a>
                         </li>
                     </ul>
@@ -30,7 +33,7 @@
                 <div class="mt-12">
                     <h3 class="text-lg font-bold">Nos réseaux</h3>
                     <ul class="flex mt-3 space-x-4">
-                        <li class="bg-amber-200 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <li class="gradient gradient-hover  h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                             <a>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill=''
                                     viewBox="0 0 24 24">
@@ -40,7 +43,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="bg-amber-200 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <li class="gradient gradient-hover h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                             <a>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill=''
                                     viewBox="0 0 511 512">
@@ -50,7 +53,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="bg-amber-200 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <li class="gradient gradient-hover  h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                             <a>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill=''
                                     viewBox="0 0 24 24">

@@ -35,24 +35,26 @@
 
          <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <article class="mt-10 lg:mt-0">
-               <h3 class="block mb-4 font-semibold text-deep-purple-accent-400">
+               <h3 class="block mb-4 lato-regular text-deep-purple-accent-400">
                Pourquoi nous choisir ?
                </h3>
                <h2
-                  class="mb-5 font-sans text-2xl font-bold tracking-tight"
+                  class="mb-5 text-2xl"
                   >
                   <img class="size-6 inline" src="/public//ressources/img/icons-useful/icone-citation.png" alt="Ouverture Guillement">
-                  La qualité n'est jamais un accident ; elle est toujours le résultat d'un effort intelligent
+                  <span class="lato-regular">
+                     La qualité n'est jamais un accident ; elle est toujours le résultat d'un effort intelligent
+                  </span>
                   <img class="size-6 inline" src="/public//ressources/img/icons-useful/icone-citation.png" alt="Fermeture Guillement">  
                   <br> 
-                  <span class="text-semibold italic">John Ruskin</span>
+                  <span class="text-medium italic text-xl">John Ruskin</span>
                </h2>
-               <p class="mb-5 text-base text-body-color dark:text-dark-6">
+               <p class="mb-5 text-base text-justify">
                 Nous sommes deux développeurs de l'école Foreach Academy, déterminés à combler un réel besoin dans le domaine de la restauration nomade. 
                 Avec La Bonne Franquette, nous croyons fermement qu'aucune question n'est insignifiante.
                 Nous comprenons que chaque interaction avec un client peut faire la différence entre une expérience satisfaisante et une expérience mémorable.
                </p>
-               <p class="mb-8 text-base text-body-color dark:text-dark-6">
+               <p class="mb-8 text-base text-justify">
                 Chaque étape de notre parcours de développement a été marquée par un engagement constant à comprendre les défis spécifiques auxquels sont confrontés les food-trucks.
                 En tant qu'entrepreneurs, nous avons conçu une solution qui répond précisément à leurs besoins, en simplifiant et en optimisant leurs opérations quotidiennes.
                </p>
