@@ -33,24 +33,24 @@ let features = [
 </script>
 
 <template>
-    <div class="title  mt-4 mb-8 text-center">
-        <h2 class=" text-3xl font-bold">Notre solution pour votre lancement</h2>
-        <h3 class="mt-2 lato-light">
-            Laissez vous séduire par nos fonctionnalités, pensées pour 
-            <span class="font-bold">vous</span>
-        </h3>
-    </div>
-    <div class="grid place-content-center">
-        <div class="features mx-4 flex justify-center flex-col lg:flex-row lg:space-x-12 lg:space-x-6 md:mt-8 my-0">
-            <div class="rounded-xl shadow-lg p-8 md:min-w-48 lg:basis-1/5 basis-1/3 my-4"
-                 v-for="feature in features">
-                <div class="grid place-content-center my-2">
-                    <img class="max-w-20":src="feature.icon" :alt="feature.iconAlt">
+        <div class="title  mt-4 mb-8 text-center">
+            <h2 class=" text-3xl font-bold">Notre solution pour votre lancement</h2>
+            <h3 class="mt-2 lato-light">
+                Laissez vous séduire par nos fonctionnalités, pensées pour 
+                <span class="font-bold">vous</span>
+            </h3>
+        </div>
+        <div class="grid place-content-center">
+            <div class="features mx-4 flex justify-center items-center flex-col lg:flex-row lg:space-x-12 lg:space-x-6 md:mt-8 my-0">
+                <div class="rounded-xl shadow-lg p-8 md:min-w-48 lg:basis-1/5 w-3/4 my-4"
+                     v-for="feature in features">
+                    <div class="grid place-content-center my-2">
+                        <img class="max-w-20":src="feature.icon" :alt="feature.iconAlt">
+                    </div>
+                    <h4 class=" mt-8 text-center font-bold">{{feature.title}}</h4>
+                    <h4 class=" mb-2 text-center lato-light">{{feature.subtitle}}</h4>
+                    <p class="my-2 text-center">{{feature.description}}</p>   
                 </div>
-                <h4 class=" mt-8 text-center font-bold">{{feature.title}}</h4>
-                <h4 class=" mb-2 text-center lato-light">{{feature.subtitle}}</h4>
-                <p class="my-2 text-center">{{feature.description}}</p>   
             </div>
         </div>
-    </div>
 </template>
