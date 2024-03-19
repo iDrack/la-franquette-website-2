@@ -8,6 +8,9 @@
       <h2 class="max-w-lg mb-6 text-3xl sm:text-4xl sm:leading-none font-bold">
         Mentions légales
       </h2>
+      <h3 class="mb-6 text-2xl sm:text-2xl sm:leading-none font-bold">
+        Ce site fait l'objet d'un exercice scolaire et n'a aucun but commercial.
+      </h3>
       <div class="flex flex-row">
         <div class="basis-1/2">
           <h2 class="color-primary lato-regular">
@@ -17,7 +20,7 @@
             <li>Éditeurs du site : François K et Thomas D</li>
             <li>E-mail: contact@labonnefranquette.com</li>
             <li>Directeur de la publication : Thomas Dignoire</li>
-            <li>Société par actions simplifiée (SAS) au capital de 1000 €</li>
+            <li>Société fictive</li>
           </ul>
         </div>
         <div class="basis-1/2">
@@ -63,6 +66,21 @@
         directs ou indirects, matériels ou immatériels, causés par l'utilisation
         du site ou de l'application vendue.
       </p>
+      <h2 class="color-primary lato-regular font-bold">Sources</h2>
+      <ul class="text-base md:text-lg">
+        <li>
+          <a href="https://www.flaticon.com/free-icons/free" title="free icons"
+            >Free icons created by Pixel perfect - Flaticon</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.flaticon.com/free-icons/problem"
+            title="problem icons"
+            >Problem icons created by Eucalyp - Flaticon</a
+          >
+        </li>
+      </ul>
     </div>
   </div>
 </template>
