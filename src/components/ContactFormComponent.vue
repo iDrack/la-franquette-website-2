@@ -21,7 +21,7 @@ export default {
 };
 </script>
 <template>
-    <form ref="form" @submit.prevent="sendEmail" class="ml-auto space-y-4">
+    <form ref="form" @submit.prevent="sendEmail" class="mx-auto md:ml-auto space-y-4">
         <input type='text' name="user_name" placeholder='Votre nom'
             class="w-full rounded-md py-3 px-2 bg-gray-100 text-sm outline-primary" />
         <input type='email' name="user_email" placeholder='Votre adresse email'

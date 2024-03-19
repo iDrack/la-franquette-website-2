@@ -8,8 +8,8 @@
 <template>
 
 <div class="container mx-auto">
-    <div class="flex flex-col justify-center lg:flex-row items-center gap-16 mt-6 mx-auto max-w-4xl">
-                <div class="">
+    <div class="flex flex-col justify-center lg:flex-row items-center gap-16 mt-6 mx-auto max-w-5xl">
+                <div class="lg:w-1/2">
                     <h2 class="text-2xl font-semibold">Contactez-nous dès maintenant</h2>
                     <p class="text-sm text-justify mt-3">
                             Vous souhaitez en savoir plus sur notre application ? Nous sommes impatients de découvrir votre projet et serons ravis de répondre à toutes vos questions.
