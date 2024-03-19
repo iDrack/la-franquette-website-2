@@ -1,6 +1,6 @@
 <template>
   <div class="grid place-content-center">
-    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
+    <div class="px-4 py-16  mt-16 sm:mt-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
         <div class="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
           <div class="mb-16 lg:mb-0 lg:max-w-lg">
             <div class="max-w-xl mb-6">
@@ -23,7 +23,7 @@
             </div>
           </div>
           <div class="flex items-center justify-center lg:w-1/2 pl-4 ml-16">
-              <div class="w-8/12 z-40 -mr-16 lg:-ml-32">
+              <div class="w-8/12 z-30 -mr-16 lg:-ml-32">
                   <img class="object-cover" src="/ressources/img/photo-home2.png" alt="Tablette montrant le logiciel de caisse La bonne Franquette" />
                 </div>
                 <div class="w-10/12 -ml-16 lg:-ml-32 pt-4">
@@ -32,11 +32,10 @@
           </div>
         </div>
     </div>
-    <div class="w-full flex items-center justify-center">
+    <div class="w-full md:flex items-center justify-center sm:hidden">
       <a href="#product" class="smooth">
         <ChevronDownIcon 
-          href=""
-            @click="scrollToProductionSection()" 
+            href="#product"
             aria-label="Scroll down" 
             class="size-10 color-primary border-2 border-gray-100 rounded-full p-2 hover:shadow" />    
         </a>

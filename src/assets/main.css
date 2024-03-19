@@ -60,8 +60,19 @@ section {
   background-color: var(--color-primary-hover) !important;
 }
 
+.hover-primary:hover {
+  background-color: var(--color-primary);
+  transition: 0.5s;
+  color: var(--color-white);
+}
+
 .bg-secondary {
   background-color: var(--color-secondary);
+}
+
+.hover-secondary:hover {
+  background-color: var(--color-secondary);
+  transition: 0.5s;
 }
 
 .bg-secondary:hover {
