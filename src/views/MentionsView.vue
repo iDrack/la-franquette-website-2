@@ -80,6 +80,13 @@
             >Problem icons created by Eucalyp - Flaticon</a
           >
         </li>
+        <li>
+          <a
+            href="https://www.flaticon.com/free-icons/billing"
+            title="billing icons"
+            >Billing icons created by smashingstocks - Flaticon</a
+          >
+        </li>
       </ul>
     </div>
   </div>
