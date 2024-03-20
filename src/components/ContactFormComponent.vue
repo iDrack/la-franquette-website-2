@@ -35,8 +35,6 @@ export default {
             class="bg-secondary text-white font-bold rounded-md text-sm px-4 py-3" value="Prendre contact"/>
         </div>
     </form>
-
-
 </template>
 
 <style scoped>
