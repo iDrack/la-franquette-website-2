@@ -8,14 +8,20 @@ const listereponses = ref([]);
 listeQuestions.value = [
   "Combien ça coûte ?",
   "Ai-je besoin de matériel spécialisés ?",
+    "Ai-je besoin d'utiliser un modèle spécifique de Terminal de Paiment Électronique ?",
+    "Ai-je beosin d'utiliser un modèle spécifique de tablette ?",
   "Comment puis-je customiser l'application ?",
-  "J'ai rencontré un bug dans l'application, oû le reporter ?",
+    "Mes données sont-elles en sécuritées ?",
+  "J'ai rencontré un bug dans l'application, où le reporter ?",
 ];
 listereponses.value = [
-  "La Bonne Franquette est totalement gratuite d'utilisation. L'application n'est payante que si vous voulez modifier votre carte, ajouter des focntionnalités personnalisé ou que nous l'herbégeons.",
-  "Non, une simple tablette suffit à faire fonctionner l'application.",
+  "La Bonne Franquette est totalement gratuite d'utilisation. L'application n'est payante que si vous voulez modifier votre carte, ajouter des fonctionnalitées personnalisées ou que nous l'hebergeons.",
+  "Non, une simple tablette suffit à faire fonctionner l'application. Vous aurez aussi besoin d'un ordinateur si vous ne choisissez pas l'option d'hébergement.",
+  "Non. Notre application ne gére pas les paiment bancaire, vous être d'utiliser le Terminal de Paiment Électronique de votre choix.",
+  "Pour Android, une tablette avec Android Jelly Bean, v16, 4.1 ou supérieur. Et tous les produits Apple plus récent que l'iPhone 4S.",
   "Afin d'adapter notre application à vos besoin spécifique, contactez nous pour d'établir un devis.",
-  "Vous pouvez nous envoyer un message en précisant dans votre message qu'il s'agit d'un bug ainsi que le message d'erreur s'il y en a un.",
+  "Oui. Vos données sont enregistrées localement dans votre établissement. Si vous choisissez de faire héberger l'application chez nous, vos données sont stockées sur une machine virtuelle propre à vous. Personne d'autre n'y a accès.",
+  "Vous pouvez nous envoyer un message à contact@labonnefranquette.com, en précisant dans votre message qu'il s'agit d'un bug ainsi que le message d'erreur s'il y en a un.",
 ];
 </script>
 
