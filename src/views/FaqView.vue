@@ -55,7 +55,6 @@ listereponses.value = [
           </div>
         </div>
           <contact-form-component/>
-
       </div>
     </div>
   </div>
