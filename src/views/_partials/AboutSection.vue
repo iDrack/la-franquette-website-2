@@ -8,7 +8,7 @@
                <div class="w-full px-3 sm:px-4 xl:w-1/2">
                   <div class="py-3 sm:py-4">
                      <img
-                        src="/public/ressources/img/logo.png"
+                        src="/ressources/img/logo.png"
                         alt=""
                         class="w-full rounded-2xl"
                         />
@@ -41,11 +41,11 @@
                <h2
                   class="mb-5 text-2xl"
                   >
-                  <img class="size-6 inline" src="/public//ressources/img/icons-useful/icone-citation.png" alt="Ouverture Guillement">
+                  <img class="size-6 inline" src="/ressources/img/icons-useful/icone-citation.png" alt="Ouverture Guillement">
                   <span class="lato-regular">
                      La qualité n'est jamais un accident ; elle est toujours le résultat d'un effort intelligent
                   </span>
-                  <img class="size-6 inline" src="/public//ressources/img/icons-useful/icone-citation.png" alt="Fermeture Guillement">  
+                  <img class="size-6 inline" src="/ressources/img/icons-useful/icone-citation.png" alt="Fermeture Guillement">  
                   <br> 
                   <span class="text-medium italic text-xl">John Ruskin</span>
                </h2>
