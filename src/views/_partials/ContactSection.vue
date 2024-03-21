@@ -1,5 +1,5 @@
 <script setup>
-        import ContactFormComponent from '@/components/ContactFormComponent.vue';
+        import ContactFormComponent from '/src/components/ContactFormComponent.vue';
 
         const mail = import.meta.env.VITE_MAIL;
         const mailto = "mailto:"+mail+"?subject=Prise de contact via web";
