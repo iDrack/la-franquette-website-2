@@ -8,10 +8,11 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: '/la-franquette-website/',/*
+  //base: '/la-franquette-website/',
+  base: './',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }*/
+  }
 })
