@@ -11,15 +11,15 @@
       <h3 class="mb-6 text-2xl sm:text-2xl sm:leading-none font-bold">
         Ce site fait l'objet d'un exercice scolaire et n'a aucun but commercial.
       </h3>
-      <div class="flex flex-row">
-        <div class="basis-1/2">
+      <div class="flex flex-col md:flex-row">
+        <div class="basis-1/2 pr-16">
           <h2 class="color-primary lato-regular">
             Informations sur la société
           </h2>
           <ul class="text-base md:text-lg">
             <li>Éditeurs du site : François K et Thomas D</li>
             <li>E-mail: contact@labonnefranquette.com</li>
-            <li>Directeur de la publication : Thomas Dignoire</li>
+            <li>Directeur de la publication : Thomas D</li>
             <li>Société fictive</li>
           </ul>
         </div>

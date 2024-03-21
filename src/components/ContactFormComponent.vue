@@ -52,7 +52,6 @@ import emailjs from '@emailjs/browser';
             </div>   
         </div>
     </form>
-
 </template>
 
 <style scoped>
