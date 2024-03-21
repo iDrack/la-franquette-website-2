@@ -5,18 +5,20 @@ jobs:
     runs-on: ubuntu-latest
     name: Build Vue
     steps:
-      - name: get the code 
+      - name: get the code
         uses: actions/checkout@v4
-      - name: setup node 
+      - name: setup node
         uses: actions/setup-node@v4
         with:
           node_version: 18
       - name: npm install
         run: npm install
       - name: npm build
-        run: npm run build 
-      - name: get the dist file into an artifact 
+        run: npm run build
+      - name: get the dist file into an artifact
         uses: actions/upload-artifact@v4
-        with: 
+        with:
           name: la-bonne-franquette
           path: ./dist
+
+
