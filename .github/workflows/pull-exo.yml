@@ -1,8 +1,0 @@
-name: Exercice workflow pull-request
-on: pull_request
-jobs: 
-    first_job: 
-        name: Echo qu'il y a eu une pull
-        runs-on: ubuntu-latest
-        steps: 
-            - run: echo "Il y a eu un pull"
