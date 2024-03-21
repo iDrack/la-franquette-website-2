@@ -1,6 +1,6 @@
 <script setup>
-import { ref } from "vue";
-import ContactFormComponent from "@/components/ContactFormComponent.vue";
+import { ref } from "vue";/*
+import ContactFormComponent from "@/components/ContactFormComponent.vue";*/
 
 const listeQuestions = ref([]);
 const listereponses = ref([]);
@@ -53,8 +53,8 @@ listereponses.value = [
             Que soit pour obtenir plus de renseignements, pour demander une démonstration ou bien partager un problème rencontré dans l'application.
             <br>Nous restons disponible afin de mieux vous accompagner.
           </div>
-        </div>
-          <contact-form-component/>
+        </div><!--
+          <contact-form-component/>-->
 
       </div>
     </div>
