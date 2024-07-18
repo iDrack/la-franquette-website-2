@@ -34,7 +34,7 @@
     import { RouterLink } from 'vue-router';
 
     const navigation = [
-      { name: 'Accueil', href: '/', current: false },
+      { name: 'Accueil', href: '/la-franquette-website-2/', current: false },
       { name: 'F.A.Q', href: '/faq', current: false },
       { name: 'Mentions legales', href: '/mentions-legales', current: false },
     ]

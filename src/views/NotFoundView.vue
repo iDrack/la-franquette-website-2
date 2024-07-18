@@ -2,7 +2,7 @@
 
 <template>
     <div>
-        Je suis Not Found !
+        Contenue introuvable !
     </div>
 </template>
 
