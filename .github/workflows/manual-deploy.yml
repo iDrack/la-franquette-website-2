@@ -18,7 +18,7 @@ jobs:
       - name: get the dist file into an artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: la-bonne-franquette
+          name: github-pages
           path: ./dist
   deploy:
     # Add a dependency to the build job
