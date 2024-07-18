@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <div class="grid place-content-center">
@@ -69,23 +70,20 @@
       <h2 class="color-primary lato-regular font-bold">Sources</h2>
       <ul class="text-base md:text-lg">
         <li>
-          <a href="https://www.flaticon.com/free-icons/free" title="free icons"
-            >Free icons created by Pixel perfect - Flaticon</a
-          >
+          <a href="https://www.flaticon.com/free-icons/free" title="free icons" class="color-secondary hover-primary">
+            Free icons created by Pixel perfect - Flaticon</a>
         </li>
         <li>
           <a
             href="https://www.flaticon.com/free-icons/problem"
-            title="problem icons"
-            >Problem icons created by Eucalyp - Flaticon</a
-          >
+            title="problem icons" class="color-secondary hover-primary"
+            >Problem icons created by Eucalyp - Flaticon</a>
         </li>
         <li>
           <a
             href="https://www.flaticon.com/free-icons/billing"
-            title="billing icons"
-            >Billing icons created by smashingstocks - Flaticon</a
-          >
+            title="billing icons" class="color-secondary hover-primary"
+            >Billing icons created by smashingstocks - Flaticon</a>
         </li>
       </ul>
     </div>
